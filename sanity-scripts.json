@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "sanity:init": "sanity init",
+    "sanity:deploy": "sanity deploy",
+    "sanity:manage": "sanity manage"
+  }
+}
