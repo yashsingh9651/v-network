@@ -42,22 +42,22 @@ export default function Footer() {
             <h4 className="font-bold mb-4 text-lg">Services</h4>
             <ul className="space-y-3 text-muted-foreground">
               <li>
-                <Link href="#services" className="hover:text-accent transition-colors hover:translate-x-1 inline-block">
+                <Link href="/services?service=it-security" className="hover:text-accent transition-colors hover:translate-x-1 inline-block">
                   IT Security
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-accent transition-colors hover:translate-x-1 inline-block">
+                <Link href="/services?service=endpoint-protection" className="hover:text-accent transition-colors hover:translate-x-1 inline-block">
                   Endpoint Protection
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-accent transition-colors hover:translate-x-1 inline-block">
+                <Link href="/services?service=server-management" className="hover:text-accent transition-colors hover:translate-x-1 inline-block">
                   Server Management
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-accent transition-colors hover:translate-x-1 inline-block">
+                <Link href="/services?service=hardware-rental" className="hover:text-accent transition-colors hover:translate-x-1 inline-block">
                   Hardware Rental
                 </Link>
               </li>
@@ -104,7 +104,7 @@ export default function Footer() {
             <h4 className="font-bold mb-4 text-lg">Connect</h4>
             <div className="flex gap-4 mb-6">
               {[
-                { icon: Mail, href: "mailto:contact@v-networks.com", label: "Email" },
+                { icon: Mail, href: "mailto:contact@v-networks.co.in", label: "Email" },
                 { icon: Linkedin, href: "#", label: "LinkedIn" },
                 { icon: Twitter, href: "#", label: "Twitter" },
                 { icon: Github, href: "#", label: "GitHub" },

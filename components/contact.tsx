@@ -69,7 +69,7 @@ export default function Contact() {
                   <Mail className="h-6 w-6" />
                 </div>
                 <h3 className="font-semibold mb-1 text-lg">Email</h3>
-                <p className="text-white/90">contact@v-networks.com</p>
+                <p className="text-white/90">contact@v-networks.co.in</p>
               </div>
 
               <div className="group hover:scale-105 transition-transform">

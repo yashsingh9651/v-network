@@ -165,7 +165,7 @@ export default function Services() {
           "name": "V-Networks"
         },
         "serviceType": service.title,
-        "url": `https://v-networks.com/services?service=${service.id}`
+        "url": `https://v-networks.co.in/services?service=${service.id}`
       }
     }))
   }

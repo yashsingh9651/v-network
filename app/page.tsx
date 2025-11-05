@@ -17,40 +17,40 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "V-Networks",
-    "url": "https://v-networks.com",
-    "logo": "https://v-networks.com/logo.png",
+    "url": "https://v-networks.co.in",
+    "logo": "https://v-networks.co.in/logo.png",
     "description": "Enterprise IT solutions and managed services provider specializing in IT security, endpoint protection, server management, and comprehensive IT infrastructure services.",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "123 Tech Street",
-      "addressLocality": "San Francisco",
-      "addressRegion": "CA",
-      "postalCode": "94105",
-      "addressCountry": "US"
+      "streetAddress": "Ofis Square A1, Sector 3",
+      "addressLocality": "Noida",
+      "addressRegion": "UP",
+      "postalCode": "201301",
+      "addressCountry": "IN"
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+1-555-123-4567",
+      "telephone": "+9183689 76817",
       "contactType": "Customer Service",
-      "email": "contact@v-networks.com",
+      "email": "contact@v-networks.co.in",
       "areaServed": "US",
       "availableLanguage": "English"
     },
-    "sameAs": [
-      "https://www.linkedin.com/company/v-networks",
-      "https://twitter.com/vnetworks",
-      "https://github.com/v-networks"
-    ]
+    // "sameAs": [
+    //   "https://www.linkedin.com/company/v-networks",
+    //   "https://twitter.com/vnetworks",
+    //   "https://github.com/v-networks"
+    // ]
   }
 
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "V-Networks",
-    "url": "https://v-networks.com",
+    "url": "https://v-networks.co.in",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://v-networks.com/search?q={search_term_string}",
+      "target": "https://v-networks.co.in/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -77,7 +77,7 @@ export default function Home() {
         <Mission />
         <HowItWorks />
         <Testimonials />
-        <Partners />
+        {/* <Partners /> */}
         <Contact />
         <Footer />
       </div>

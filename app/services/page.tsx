@@ -1293,7 +1293,7 @@ export default async function ServicePage({
     "provider": {
       "@type": "Organization",
       "name": "V-Networks",
-      "url": "https://v-networks.com"
+      "url": "https://v-networks.co.in"
     },
     "serviceType": service.title,
     "areaServed": "US",
@@ -1333,19 +1333,19 @@ export default async function ServicePage({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://v-networks.com"
+        "item": "https://v-networks.co.in"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Services",
-        "item": "https://v-networks.com/services"
+        "item": "https://v-networks.co.in/services"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": service.title,
-        "item": `https://v-networks.com/services?service=${serviceSlug}`
+        "item": `https://v-networks.co.in/services?service=${serviceSlug}`
       }
     ]
   }

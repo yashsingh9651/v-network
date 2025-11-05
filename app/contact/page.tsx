@@ -15,19 +15,19 @@ export default function ContactPage() {
       "name": "V-Networks",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+1-555-123-4567",
+        "telephone": "+9183689 76817",
         "contactType": "Customer Service",
-        "email": "contact@v-networks.com",
+        "email": "contact@v-networks.co.in",
         "areaServed": "US",
         "availableLanguage": "English"
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "123 Tech Street",
-        "addressLocality": "San Francisco",
-        "addressRegion": "CA",
-        "postalCode": "94105",
-        "addressCountry": "US"
+        "streetAddress": "Ofis Square A1, Sector 3",
+        "addressLocality": "Noida",
+        "addressRegion": "UP",
+        "postalCode": "201301",
+        "addressCountry": "IN"
       }
     }
   }

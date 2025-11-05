@@ -142,12 +142,12 @@ export default function BlogPost({ post }: BlogPostProps) {
       "name": "V-Networks",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://v-networks.com/logo.png"
+        "url": "https://v-networks.co.in/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://v-networks.com/blog/${post.slug.current}`
+      "@id": `https://v-networks.co.in/blog/${post.slug.current}`
     }
   }
 
@@ -159,19 +159,19 @@ export default function BlogPost({ post }: BlogPostProps) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://v-networks.com"
+        "item": "https://v-networks.co.in"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "https://v-networks.com/blog"
+        "item": "https://v-networks.co.in/blog"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": post.title,
-        "item": `https://v-networks.com/blog/${post.slug.current}`
+        "item": `https://v-networks.co.in/blog/${post.slug.current}`
       }
     ]
   }
@@ -294,7 +294,7 @@ export default function BlogPost({ post }: BlogPostProps) {
             <h3 className="text-xl font-bold mb-4">Share this article</h3>
             <div className="flex flex-wrap gap-4">
               <a
-                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://v-networks.com/blog/${post.slug.current}`)}&via=vnetworks&hashtags=IT,Technology,Enterprise`}
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://v-networks.co.in/blog/${post.slug.current}`)}&via=vnetworks&hashtags=IT,Technology,Enterprise`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 bg-[#1DA1F2] text-white rounded-lg hover:bg-[#1a8cd8] transition-all shadow-lg hover:shadow-xl font-semibold"
@@ -305,7 +305,7 @@ export default function BlogPost({ post }: BlogPostProps) {
                 Share on Twitter
               </a>
               <a
-                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://v-networks.com/blog/${post.slug.current}`)}`}
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://v-networks.co.in/blog/${post.slug.current}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 bg-[#0A66C2] text-white rounded-lg hover:bg-[#004182] transition-all shadow-lg hover:shadow-xl font-semibold"
@@ -316,7 +316,7 @@ export default function BlogPost({ post }: BlogPostProps) {
                 Share on LinkedIn
               </a>
               <a
-                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://v-networks.com/blog/${post.slug.current}`)}`}
+                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://v-networks.co.in/blog/${post.slug.current}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 bg-[#1877F2] text-white rounded-lg hover:bg-[#0d65d9] transition-all shadow-lg hover:shadow-xl font-semibold"
@@ -328,7 +328,7 @@ export default function BlogPost({ post }: BlogPostProps) {
               </a>
               <button
                 onClick={() => {
-                  navigator.clipboard.writeText(`https://v-networks.com/blog/${post.slug.current}`)
+                  navigator.clipboard.writeText(`https://v-networks.co.in/blog/${post.slug.current}`)
                   alert('Link copied to clipboard!')
                 }}
                 className="flex items-center gap-2 px-6 py-3 bg-slate-600 text-white rounded-lg hover:bg-slate-700 transition-all shadow-lg hover:shadow-xl font-semibold"
