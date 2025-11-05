@@ -19,6 +19,7 @@ import {
   Settings,
   Lock,
 } from "lucide-react";
+import Link from "next/link";
 
 const serviceDetails = {
   "it-security": {
@@ -1667,9 +1668,9 @@ export default async function ServicePage({
             <p className="text-xl mb-8 opacity-90">
               Contact our team today to learn how we can help
             </p>
-            <button className="px-8 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-gray-100 transition-colors">
+            <Link href="/contact" className="px-8 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-gray-100 transition-colors">
               Contact Us
-            </button>
+            </Link>
           </motion.div>
         </div>
       </section>

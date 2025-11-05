@@ -1,7 +1,5 @@
 "use client"
-
 import type React from "react"
-
 import { motion } from "framer-motion"
 import { Mail, Phone, MapPin } from "lucide-react"
 import { useState } from "react"
@@ -14,7 +12,6 @@ export default function Contact() {
     message: "",
   })
   const [submitted, setSubmitted] = useState(false)
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
@@ -48,21 +45,23 @@ export default function Contact() {
 
         <div className="grid lg:grid-cols-2 gap-12">
           <motion.div
-            className="relative rounded-lg overflow-hidden shadow-xl"
+            className="relative rounded-2xl overflow-hidden shadow-xl h-[600px]"
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div
-              className="absolute inset-0 bg-cover bg-center"
-              style={{
-                backgroundImage:
-                  "url(/placeholder.svg?height=500&width=500&query=team-video-call-business-communication)",
-              }}
-            />
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-600/90 via-purple-600/90 to-pink-600/90" />
-
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112116.05359680796!2d77.23344959096433!3d28.58097110724235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce52fc5e576e5%3A0xc0a4ad0b66eee14f!2sOfis%20Square%20Tower!5e0!3m2!1sen!2sin!4v1762345869147!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="absolute top-0 left-0 w-full h-full"
+            ></iframe>
+            {/* OLD - TO BE REPLACED */}
             <div className="relative p-8 space-y-8 h-full flex flex-col justify-center text-white">
               <div className="group hover:scale-105 transition-transform">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-white/20 mb-4 group-hover:bg-white/30 transition-all shadow-lg">
