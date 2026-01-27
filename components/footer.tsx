@@ -130,13 +130,14 @@ export default function Footer() {
             <p className="text-sm text-muted-foreground">
               Stay updated with our latest news and offers
             </p>
+            <a className="text-sm text-muted-foreground" href="tel:919873250271">9873250271</a>
           </motion.div>
         </div>
 
         <div className="border-t border-border/50 dark:border-white/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-muted-foreground text-sm">
             <p>&copy; {currentYear} V-Networks. All rights reserved.</p>
-            <div className="flex gap-6">
+            {/* <div className="flex gap-6">
               <Link href="#" className="hover:text-accent transition-colors">
                 Privacy Policy
               </Link>
@@ -146,7 +147,7 @@ export default function Footer() {
               <Link href="#" className="hover:text-accent transition-colors">
                 Cookie Policy
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
