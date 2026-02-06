@@ -1,6 +1,7 @@
 "use client"
 import Navigation from "@/components/navigation"
 import Hero from "@/components/hero"
+import { Clients } from "@/components/clients"
 import Services from "@/components/services"
 import About from "@/components/about"
 import Mission from "@/components/mission"
@@ -72,6 +73,7 @@ export default function Home() {
       <div className="relative z-10">
         <Navigation />
         <Hero />
+        <Clients />
         <Services />
         <About />
         <Mission />

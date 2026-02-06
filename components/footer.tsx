@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Mail, Linkedin, Twitter, Github, Sparkles } from "lucide-react"
+import { Mail, Linkedin, Twitter, Github, Sparkles, Phone } from "lucide-react"
 import { motion } from "framer-motion"
 
 export default function Footer() {
@@ -130,7 +130,14 @@ export default function Footer() {
             <p className="text-sm text-muted-foreground">
               Stay updated with our latest news and offers
             </p>
-            <a className="text-sm text-muted-foreground" href="tel:919873250271">9873250271</a>
+            <a href="tel:919873250271" className="flex my-3 gap-2 items-center text-sm text-muted-foreground">
+              <Phone/>
+              <p>9873250271</p>
+            </a>
+            <a href="tel:919220490934" className="flex gap-2 items-center text-sm text-muted-foreground">
+              <Phone/>
+              <p>9220490934</p>
+            </a>
           </motion.div>
         </div>
 
