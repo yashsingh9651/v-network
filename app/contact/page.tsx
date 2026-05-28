@@ -23,9 +23,9 @@ export default function ContactPage() {
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Ofis Square A1, Sector 3",
+        "streetAddress": "Mindmill Corporate Tower, 24A, Film City, Sector 16A",
         "addressLocality": "Noida",
-        "addressRegion": "UP",
+        "addressRegion": "Uttar Pradesh",
         "postalCode": "201301",
         "addressCountry": "IN"
       }

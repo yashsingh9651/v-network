@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Mail, Linkedin, Twitter, Github, Sparkles, Phone } from "lucide-react"
+import { Mail, Linkedin, Twitter, Github, Sparkles, Phone, MapPin } from "lucide-react"
 import { motion } from "framer-motion"
 
 export default function Footer() {
@@ -138,6 +138,10 @@ export default function Footer() {
               <Phone/>
               <p>+91 9220490934</p>
             </a>
+            <div className="flex my-3 gap-2 items-start text-sm text-muted-foreground">
+              <MapPin className="mt-0.5" />
+              <p>Mindmill Corporate Tower, 24A, Film City, Sector 16A, Noida, Uttar Pradesh 201301</p>
+            </div>
           </motion.div>
         </div>
 

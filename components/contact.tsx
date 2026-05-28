@@ -52,7 +52,7 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112116.05359680796!2d77.23344959096433!3d28.58097110724235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce52fc5e576e5%3A0xc0a4ad0b66eee14f!2sOfis%20Square%20Tower!5e0!3m2!1sen!2sin!4v1762345869147!5m2!1sen!2sin"
+              src="https://www.google.com/maps?q=Mindmill%20Corporate%20Tower%2C%2024A%2C%20Film%20City%2C%20Sector%2016A%2C%20Noida%2C%20Uttar%20Pradesh%20201301&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -84,7 +84,7 @@ export default function Contact() {
                   <MapPin className="h-6 w-6" />
                 </div>
                 <h3 className="font-semibold mb-1 text-lg">Address</h3>
-                <p className="text-white/90">Ofis Square A1, Sector 3, Noida, 201301 UP</p>
+                <p className="text-white/90">Mindmill Corporate Tower, 24A, Film City, Sector 16A, Noida, Uttar Pradesh 201301</p>
               </div>
             </div>
           </motion.div>
